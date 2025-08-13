@@ -1,7 +1,7 @@
 {
   "name": "famous-people-search",
   "version": "1.0.0",
-  "description": "유명인 정보를 API로 검색하는 React 앱",
+  "description": "OpenAI GPT API를 사용한 유명인 정보 검색 React 앱",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -20,7 +20,7 @@
     "typescript": "^5.2.2",
     "vite": "^4.5.0"
   },
-  "keywords": ["react", "typescript", "vite", "famous-people"],
+  "keywords": ["react", "typescript", "vite", "openai", "gpt", "famous-people"],
   "author": "Your Name",
   "license": "MIT"
 }

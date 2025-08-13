@@ -1,0 +1,4 @@
+[33mc8f4558[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Remove API key from code and use environment variables only
+[33m051f017[m Fix API key configuration and add environment variable support
+[33m2bdf9fb[m[33m ([m[1;31morigin/main[m[33m)[m Fix TypeScript build errors for Vercel deployment
+[33md0d1bfc[m Initial commit: 유명인 정보 검색 앱

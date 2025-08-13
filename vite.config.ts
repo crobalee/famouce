@@ -5,10 +5,22 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000,
-    open: true
+    open: true,
+    host: true
   },
   build: {
     outDir: 'dist',
-    sourcemap: false
-  }
+    sourcemap: false,
+    minify: 'terser',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          utils: ['axios']
+        }
+      }
+    }
+  },
+  base: '/',
+  root: '.'
 })
