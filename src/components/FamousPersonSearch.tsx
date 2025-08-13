@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { searchFamousPerson } from '../services/famousPersonService';
 import './FamousPersonSearch.css';
 
