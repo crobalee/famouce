@@ -1,0 +1,26 @@
+{
+  "name": "famous-people-search",
+  "version": "1.0.0",
+  "description": "유명인 정보를 API로 검색하는 React 앱",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  },
+  "keywords": ["react", "typescript", "vite", "famous-people"],
+  "author": "Your Name",
+  "license": "MIT"
+}
